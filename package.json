@@ -1,0 +1,23 @@
+{
+    "name": "miniproject2-dibimbing",
+    "version": "1.0.0",
+    "description": "mini project kedua dibimbing tentang backend",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "create-db": "node ./server/createDb.js",
+        "create-table": "node ./server/createTable.js",
+        "dev": "nodemon index.js"
+    },
+    "author": "Cindy Nainggolan",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "express": "^4.17.2",
+        "jsonwebtoken": "^8.5.1",
+        "mysql": "^2.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
