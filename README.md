@@ -1,4 +1,4 @@
-# Mini-Project Backend
+# MiniProject Backend Merchant
 
 This project is rest API for the merchant services.
 
